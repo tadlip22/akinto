@@ -1,0 +1,161 @@
+{
+    "Users": [
+        {
+            "Id": "02458e7f-9f78-4587-b39a-178fe94edff0",
+            "FirstName": "Admin1",
+            "MiddleName": "",
+            "LastName": "Admin1",
+            "FullName": "Admin1, Admin1",
+            "Position": "",
+            "Photo": "",
+            "UserName": "Admin1"
+        },
+        {
+            "Id": "33265ff5-d47d-42f8-8664-51832c8f06d5",
+            "FirstName": "Admin3",
+            "MiddleName": "",
+            "LastName": "Admin3",
+            "FullName": "Admin3, Admin3",
+            "Position": "",
+            "Photo": "",
+            "UserName": "Admin3"
+        },
+        {
+            "Id": "b42edb30-e3d8-48ee-8816-bfac68bd5e06",
+            "FirstName": "Admin",
+            "MiddleName": "",
+            "LastName": "Admin",
+            "FullName": "Admin, Admin",
+            "Position": "",
+            "Photo": "",
+            "UserName": "Admin"
+        },
+        {
+            "Id": "efd7fb10-ad73-4b87-b990-8c72e8214567",
+            "FirstName": "Admin2",
+            "MiddleName": "",
+            "LastName": "Admin2",
+            "FullName": "Admin2, Admin2",
+            "Position": "",
+            "Photo": "",
+            "UserName": "Admin2"
+        }
+    ],
+    "Departments": [
+        {
+            "DepartmentId": 1,
+            "DeptName": "Sales",
+            "isActive": true
+        },
+        {
+            "DepartmentId": 2,
+            "DeptName": "Acctng",
+            "isActive": true
+        },
+        {
+            "DepartmentId": 3,
+            "DeptName": "Inventory",
+            "isActive": true
+        }
+    ],
+    "Iterations": [
+        {
+            "IterationId": 1,
+            "StartDate": "10/14/2019 0:00:00",
+            "EndDateTime": "10/20/2019 23:59:59"
+        },
+        {
+            "IterationId": 2,
+            "StartDate": "10/21/2019 0:00:00",
+            "EndDateTime": "10/27/2019 23:59:59"
+        }
+    ],
+    "KeyResults": [
+        {
+            "KeyResultId": 1,
+            "KeyDescription": "Sample Key Result 1",
+            "PercentStatus": 20.00,
+            "WeightedPercent": 0.00,
+            "Iteration_IterationId": 1,
+            "KeyResultBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0"
+        },
+        {
+            "KeyResultId": 2,
+            "KeyDescription": "Sample Key Result 2",
+            "PercentStatus": 10.00,
+            "WeightedPercent": 0.00,
+            "Iteration_IterationId": 1,
+            "KeyResultBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0"
+        },
+        {
+            "KeyResultId": 3,
+            "KeyDescription": "Sample Key Result 3",
+            "PercentStatus": 25.00,
+            "WeightedPercent": 0.00,
+            "Iteration_IterationId": 1,
+            "KeyResultBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0"
+        },
+        {
+            "KeyResultId": 4,
+            "KeyDescription": "Sample Key Result 4",
+            "PercentStatus": 20.00,
+            "WeightedPercent": 0.00,
+            "Iteration_IterationId": 1,
+            "KeyResultBy_Id": "efd7fb10-ad73-4b87-b990-8c72e8214567"
+        },
+        {
+            "KeyResultId": 5,
+            "KeyDescription": "Sample Key Result 5",
+            "PercentStatus": 40.00,
+            "WeightedPercent": 0.00,
+            "Iteration_IterationId": 2,
+            "KeyResultBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0"
+        }
+    ],
+    "Comments": [
+        {
+            "CommentId": 1,
+            "CommentDesc": "Sample Comment 1",
+            "CommentDateTime": "12/10/2019 18:20:29",
+            "CommentBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0",
+            "KeyResult_KeyResultId": 1
+        },
+        {
+            "CommentId": 2,
+            "CommentDesc": "Sample Comment 2",
+            "CommentDateTime": "12/10/2019 18:20:29",
+            "CommentBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0",
+            "KeyResult_KeyResultId": 1
+        },
+        {
+            "CommentId": 3,
+            "CommentDesc": "Sample Comment 3",
+            "CommentDateTime": "12/10/2019 18:20:29",
+            "CommentBy_Id": "efd7fb10-ad73-4b87-b990-8c72e8214567",
+            "KeyResult_KeyResultId": 2
+        },
+        {
+            "CommentId": 4,
+            "CommentDesc": "Sample Comment 4",
+            "CommentDateTime": "12/10/2019 18:20:29",
+            "CommentBy_Id": "02458e7f-9f78-4587-b39a-178fe94edff0",
+            "KeyResult_KeyResultId": 5
+        }
+    ],
+    "Role": [
+        {
+            "Id": "831b64bc-b3e1-4f30-bd6d-4a9f331d0d9a",
+            "Name": "Admin"
+        },
+        {
+            "Id": "5426e0fb-75f0-4cab-9cf2-dcaeadab0466",
+            "Name": "SuperAdmin"
+        }
+    ],
+    "UserRole": [
+        {
+            "UserId": "02458e7f-9f78-4587-b39a-178fe94edff0",
+            "RoleId": "831b64bc-b3e1-4f30-bd6d-4a9f331d0d9a"
+        }
+    ]
+}
